@@ -1,0 +1,53 @@
+.heading {
+    width: 100%;
+    color: black;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(82, 81, 81 ) .5px;
+    background: linear-gradient(rgb(200, 192, 192),white,rgb(200, 192, 192));
+    
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    width: 30%;
+    background-image: url('OIP.jpeg');
+    background-size: cover;
+    background-position:center ;
+    padding: 10px;
+    background-clip: text;
+    /* Adjust padding as needed */
+    color: transparent;
+}
+
+@media (min-width: 670px) {
+    h1 {
+        font-size: 30px;
+        width:40%;
+    }
+}
+@media (min-width: 700px) {
+    h1 {
+        font-size: 34px;
+        width: 40%;
+    }
+}
+@media (min-width: 750px) {
+    h1 {
+        font-size: 38px;
+    }
+}
+@media (min-width: 800x) {
+    h1 {
+        font-size: 42px;
+    }
+}
+/* @media (min-width: 500px) {
+    h1 {
+        font-size: 25px;
+    }
+} */
