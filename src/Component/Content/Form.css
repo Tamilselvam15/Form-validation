@@ -114,3 +114,16 @@
     width: 20%;
 
 }
+.error{
+    color: red;
+    font-size: 12px;
+    width: 80%;
+    text-align: center;
+}
+
+.label-heading{
+    font-size: 12px;
+    width: 90%;
+    color: blue;
+    font-weight: bold;
+}
